@@ -1,0 +1,17 @@
+.container-breadcrumb{
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  background-color: #ededed;
+}
+
+
+@media screen  and (max-width: 720px){
+.container-breadcrumb {
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+padding-bottom: 20px;
+background-color: #ededed;
+}
+}

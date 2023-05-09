@@ -1,0 +1,28 @@
+h3{
+    padding-top: 24px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.08;
+    text-align: center;
+  }
+  
+  .container-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+  
+  .container-list-item{
+    color: rgba(0,0,0,.9);
+    line-height: 1.231;
+    list-style-position: outside;
+    list-style-type: disc;
+    margin-bottom: 3px;
+    margin-left: 18px;
+  }
+ 
+  .lupa{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+  }

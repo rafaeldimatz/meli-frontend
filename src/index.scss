@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: "Proxima Nova",-apple-system,Roboto,Arial,sans-serif,sans-serif;
+  background-color: #ededed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  padding-right:15px;
+  padding-left:15px;
+  margin-right:auto;
+  margin-left:auto
+ }
+ @media (min-width:576px) {
+  .container {
+   max-width:540px
+  }
+ }
+ @media (min-width:768px) {
+  .container {
+   max-width:720px
+  }
+ }
+ @media (min-width:992px) {
+  .container {
+   max-width:960px
+  }
+ }
+ @media (min-width:1200px) {
+  .container {
+   max-width:1140px
+  }
+ }
+
+ .bg-white{
+  background-color: #ffffff;
+ }
+
+ .p-1{
+    padding: 1rem;
+ }
+
+ .img-fluid{
+    max-width: 100%;
+    height: auto;
+ }
+
+ .general-error{
+    display: flex;
+    justify-content: center;
+    margin:10px;
+    font-weight: bold;
+ }
